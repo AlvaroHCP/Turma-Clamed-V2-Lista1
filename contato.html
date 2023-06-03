@@ -20,9 +20,50 @@
                 <a href="">Sobre Nós</a>
                 <a href="./contato.html">Fale Conosco</a>
             </div>
-
         </nav>
     </header>
+
+    <main>
+        <form action="" method="get">
+            <fieldset>
+
+                <legend>Pesquisa</legend>
+
+                <section id="dados-pessoais">
+                    <!-- Dados Pessoais -->
+                    <label for="termo" required>Nome:</label>
+                    <input type="text" id="termo">
+
+                    <label for="termo" required>Telefone:</label>
+                    <input type="text" id="termo">
+
+                    <label for="termo" required>Email:</label>
+                    <input type="text" id="termo">
+                </section>
+
+                <section id="opcoes-de-mensagem">
+                    <label for="assunto">Qual é o assunto da sua mensagem?</label>
+                    <select name="assunto" id="assunto">
+                        <optgroup label="Assuntos">
+                            <option value="Duvidas">Dúvidas</option>
+                            <option value="Elogios">Elogios</option>
+                            <option value="Reclamacoes">Reclamações</option>
+                            <option value="Sugestoes">Sugestões</option>
+                        </optgroup>
+                    </select>
+                </section>
+
+                <section id="mensagem-do-cliente">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem-cliente" cols="60" rows="20"
+                        placeholder="Insira aqui sua mensagem."></textarea>
+                    <input type="checkbox" id="orcamento">
+                    <label for="orcamento">Orçamento</label>
+                    <input type="submit" value="Enviar">
+                </section>
+            </fieldset>
+        </form>
+    </main>
 </body>
 
 </html>
