@@ -6,23 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Alvaro Pimentel
+        Página Inicial
     </title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <header>
-        <div id="Logo-Nome-Empresa">
+    <header class="cabecalho flex">
+        <section class="empresa flex" id="Logo-Nome-Empresa">
             <img width="40px" src="./Omega.jpeg" alt="Farmácia Ômega">
-            <p>Farmácia Ômega</p>
-        </div>
-        <div id="Itens-Menu">
-            <a href="./index.html">Todos os Medicamentos</a>
-            <a href="">Sobre Nós</a>
-            <a href="./contato.html">Fale Conosco</a>
-        </div>
+            <h3>Ômega Medicamentos</h3>
+        </section>
+        <section class="menu" id="Itens-Menu">
+            <div class="pesquisa" style="align-content: center;">
+                <input class="pesquisa-menu" type="text" placeholder="O que está procurando?">
+                <input type="submit" value="Pesquisar">
+            </div>
+            <div class="navegacao">
+                <a href="./index.html"><b>Todos os Medicamentos</b></a>
+                <a href=""><b>Sobre Nós</b></a>
+                <a href="./contato.html"><b>Fale Conosco</b></a>
+            </div>
+        </section>
     </header>
 
     <main>
@@ -30,7 +36,7 @@
             <div id="Head-Remedio">
                 <img width="20px" src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="Icone de Coração">
                 <img width="80px"
-                    src="https://uploads.consultaremedios.com.br/product_images/full/ac521f2d7fa170189f1ebbaed99a1d7baa89b8ed.png?1616094406"
+                    src="https://boticaalternativa.com.br/wp-content/uploads/2020/08/20191128073919_812999188_DZ-1.jpg.webp"
                     alt="Imagem do Medicamento">
             </div>
             <div id="Corpo-Remedio">
@@ -44,6 +50,7 @@
                 <input type="submit" value="Adicionar">
             </div>
         </section>
+
     </main>
 
 </body>

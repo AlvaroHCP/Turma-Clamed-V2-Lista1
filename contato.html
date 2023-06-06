@@ -5,30 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>
+        Fale Conosco
+    </title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div id="Logo-Nome-Empresa">
-                <img width="40px" src="./Omega.jpeg" alt="Farmácia Ômega">
-                <p>Farmácia Ômega</p>
+
+    <header class="cabecalho flex">
+        <section class="empresa flex" id="Logo-Nome-Empresa">
+            <img width="40px" src="./Omega.jpeg" alt="Farmácia Ômega">
+            <h3>Ômega Medicamentos</h3>
+        </section>
+        <section class="menu" id="Itens-Menu">
+            <div class="pesquisa" style="align-content: center;">
+                <input type="text" placeholder="O que está procurando?">
+                <input type="submit" value="Pesquisar">
             </div>
-            <div id="Itens-Menu">
-                <a href="./index.html">Todos os Medicamentos</a>
-                <a href="">Sobre Nós</a>
-                <a href="./contato.html">Fale Conosco</a>
+            <div class="navegacao">
+                <a href="./index.html"><b>Todos os Medicamentos</b></a>
+                <a href=""><b>Sobre Nós</b></a>
+                <a href="./contato.html"><b>Fale Conosco</b></a>
             </div>
-        </nav>
+        </section>
     </header>
 
-    <main>
+    <main class="contato">
+        <h1>Fale Conosco</h1>
         <form action="" method="get">
             <fieldset>
 
-                <legend>Pesquisa</legend>
+                <legend>Preencha os Campos Abaixo</legend>
 
                 <section id="dados-pessoais">
                     <!-- Dados Pessoais -->
@@ -50,6 +58,7 @@
                             <option value="Elogios">Elogios</option>
                             <option value="Reclamacoes">Reclamações</option>
                             <option value="Sugestoes">Sugestões</option>
+                            <option value="Outros">Outros</option>
                         </optgroup>
                     </select>
                 </section>
@@ -57,7 +66,7 @@
                 <section id="mensagem-do-cliente">
                     <label for="mensagem">Mensagem:</label>
                     <textarea name="mensagem" id="mensagem-cliente" cols="60" rows="20"
-                        placeholder="Insira aqui sua mensagem."></textarea>
+                        placeholder="Insira aqui sua mensagem." required></textarea>
                     <input type="checkbox" id="orcamento">
                     <label for="orcamento">Orçamento</label>
                     <input type="submit" value="Enviar">
