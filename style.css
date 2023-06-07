@@ -77,7 +77,12 @@ a:active {
 
 .contato {
     padding-top: 70px;
-    justify-content: center;
+    /* justify-content: center; */
+}
+
+.fale-conosco {
+    text-align: center;
+    margin-top: 30px;
 }
 
 .imagem-fundo {
@@ -116,4 +121,37 @@ a:active {
     background-repeat: no-repeat;
     width: 85px;
     text-align: right;
+}
+
+.formulario {
+    width: 300px;
+    font-family: 'Times New Roman';
+    margin-left: 31%;
+    background-color: #fae8eb;
+    background-image: url(https://w7.pngwing.com/pngs/486/668/png-transparent-cherry-blossom-petals-material-cherry-blossoms-flowers-petal.png);
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+
+.dados {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.input-field1 {
+    width: 300px;
+    margin-left: 44px;
+}
+
+.input-field2 {
+    width: 300px;
+    margin-left: 27px;
+}
+
+.opcoes {
+    margin-left: 46px;
+}
+
+.botao-enviar {
+    margin-left: 340px;
 }

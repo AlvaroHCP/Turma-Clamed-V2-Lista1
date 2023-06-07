@@ -20,7 +20,7 @@
         </section>
         <section class="menu" id="Itens-Menu">
             <div class="pesquisa" style="align-content: center;">
-                <input type="text" placeholder="O que está procurando?">
+                <input class="pesquisa-menu" type="text" placeholder="O que está procurando?">
                 <input type="submit" value="Pesquisar">
             </div>
             <div class="navegacao">
@@ -32,27 +32,30 @@
     </header>
 
     <main class="contato">
-        <h1>Fale Conosco</h1>
+        <h1 class="fale-conosco">Fale Conosco</h1>
         <form action="" method="get">
-            <fieldset>
-
+            <fieldset class="formulario">
                 <legend>Preencha os Campos Abaixo</legend>
 
-                <section id="dados-pessoais">
+                <div id="dados-pessoais">
                     <!-- Dados Pessoais -->
-                    <label for="termo" required>Nome:</label>
-                    <input type="text" id="termo">
+                    <div class="dados">
+                        <label for="termo">Nome:</label>
+                        <input class="input-field1" type="text" id="termo" required>
+                    </div>
+                    <div class="dados">
+                        <label for="termo">Telefone:</label>
+                        <input class="input-field2" type="text" id="termo" required>
+                    </div>
+                    <div class="dados">
+                        <label for="termo">Email:</label>
+                        <input class="input-field1" type="text" id="termo" required>
+                    </div>
+                </div>
 
-                    <label for="termo" required>Telefone:</label>
-                    <input type="text" id="termo">
-
-                    <label for="termo" required>Email:</label>
-                    <input type="text" id="termo">
-                </section>
-
-                <section id="opcoes-de-mensagem">
+                <div class="dados" id="opcoes-de-mensagem">
                     <label for="assunto">Qual é o assunto da sua mensagem?</label>
-                    <select name="assunto" id="assunto">
+                    <select class="opcoes" name="assunto" id="assunto">
                         <optgroup label="Assuntos">
                             <option value="Duvidas">Dúvidas</option>
                             <option value="Elogios">Elogios</option>
@@ -61,16 +64,17 @@
                             <option value="Outros">Outros</option>
                         </optgroup>
                     </select>
-                </section>
+                </div>
 
-                <section id="mensagem-do-cliente">
+                <div class="dados" id="mensagem-do-cliente">
                     <label for="mensagem">Mensagem:</label>
-                    <textarea name="mensagem" id="mensagem-cliente" cols="60" rows="20"
+                    <textarea name="mensagem" id="mensagem-cliente" cols="60" rows="16"
                         placeholder="Insira aqui sua mensagem." required></textarea>
                     <input type="checkbox" id="orcamento">
                     <label for="orcamento">Orçamento</label>
-                    <input type="submit" value="Enviar">
-                </section>
+                    <input class="botao-enviar" type="submit" value="Enviar">
+                </div>
+
             </fieldset>
         </form>
     </main>
