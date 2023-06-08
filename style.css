@@ -61,13 +61,18 @@ a:active {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    /* background-image: url("./cerejeira-lateral.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
 }
 
 .card {
     font-size: 1rem;
     width: 250px;
     height: 450px;
-    background-color: rgb(245, 213, 213);
+    background-color: #fff2f4;
     border: 7px solid pink;
     border-radius: 10px;
     /* object-fit: cover; */
@@ -78,6 +83,11 @@ a:active {
 .contato {
     padding-top: 70px;
     /* justify-content: center; */
+
+    /* background-image: url("./crianca-cerejeira.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
 }
 
 .fale-conosco {
@@ -86,10 +96,9 @@ a:active {
 }
 
 .imagem-fundo {
-    /* background-image: url(https://c4.wallpaperflare.com/wallpaper/862/510/547/plant-cherry-blossom-blossom-flower-wallpaper-preview.jpg); */
-    /* background-image: url(https://png.pngtree.com/element_our/20190531/ourmid/pngtree-cherry-blossom-petals-png-download-image_1310901.jpg); */
-    background-image: url(https://w7.pngwing.com/pngs/486/668/png-transparent-cherry-blossom-petals-material-cherry-blossoms-flowers-petal.png);
-    background-blend-mode: soft-light;
+    background-image: url("./petalas-cerejeira1.png");
+    background-blend-mode: color-burn;
+    /* background-blend-mode: color-dodge; */
     background-size: cover;
 }
 
@@ -127,9 +136,9 @@ a:active {
     width: 300px;
     font-family: 'Times New Roman';
     margin-left: 31%;
-    background-color: #fae8eb;
-    background-image: url(https://w7.pngwing.com/pngs/486/668/png-transparent-cherry-blossom-petals-material-cherry-blossoms-flowers-petal.png);
-    background-blend-mode: soft-light;
+    background-color: #fff2f4;
+    background-image: url("./petalas-cerejeira1.png");
+    background-blend-mode: color-burn;
     background-size: cover;
 }
 
