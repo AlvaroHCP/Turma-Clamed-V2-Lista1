@@ -21,10 +21,17 @@
     align-items: center;
     justify-content: space-evenly;
 } */
+
+:root {
+    --btn-empresa-color: rgba(167, 3, 3, 0.946);
+    --btn-menu-color: rgb(251, 169, 183);
+}
+
 header nav {
     background-image: url(https://c4.wallpaperflare.com/wallpaper/862/510/547/plant-cherry-blossom-blossom-flower-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 6px;
 }
 
 header nav section {
@@ -42,11 +49,40 @@ nav #menu {
     width: 40px;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
 }
 
 #Logo-Nome-Empresa h5 {
-    color: rgba(167, 3, 3, 0.946);
+    color: var(--btn-empresa-color);
     margin-top: 10px;
+}
+
+#btn-menu {
+    color: var(--btn-empresa-color);
+    background-color: rgb(252, 231, 234);
+    border-color: var(--btn-menu-color);
+}
+
+#btn-menu:hover {
+    color: pink;
+    background-color: rgb(98, 154, 250);
+}
+
+header a {
+    border-radius: 4px;
+}
+
+header a:visited {
+    color: red;
+}
+
+header a:hover {
+    color: pink;
+    background-color: rgb(98, 154, 250);
+}
+
+header a:active {
+    color: black;
 }
 
 /* #search-bar {
@@ -54,7 +90,7 @@ nav #menu {
     display: flex;
 } */
 
-.menu {
+/* .menu {
     width: auto;
 }
 
@@ -73,20 +109,8 @@ nav #menu {
     margin-left: 130px;
     display: inline-flex;
     justify-content: space-around;
-}
+} */
 
-a:visited {
-    color: blue;
-}
-
-a:hover {
-    color: pink;
-    background-color: rgb(98, 154, 250);
-}
-
-a:active {
-    color: black;
-}
 
 .main {
     padding-top: 70px;
