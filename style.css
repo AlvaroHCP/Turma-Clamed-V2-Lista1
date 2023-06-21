@@ -1,26 +1,58 @@
-.cabecalho {
+/*.cabecalho {
     width: 100%;
     height: 80px;
     background-color: aqua;
     background-image: url(https://c4.wallpaperflare.com/wallpaper/862/510/547/plant-cherry-blossom-blossom-flower-wallpaper-preview.jpg);
-    /* background-blend-mode: normal; */
+    background-blend-mode: normal;
     background-size: cover;
     border-radius: 5px;
     align-items: center;
 
     position: fixed;
-}
+}*/
 
 .flex {
     display: flex;
 }
 
-.empresa {
+/* .empresa {
     width: 250px;
     height: 40px;
     align-items: center;
     justify-content: space-evenly;
+} */
+header nav {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/862/510/547/plant-cherry-blossom-blossom-flower-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+header nav section {
+    height: 5.5rem;
+    width: 100%;
+}
+
+nav #menu {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+#Logo-Nome-Empresa img {
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Logo-Nome-Empresa h5 {
+    color: rgba(167, 3, 3, 0.946);
+    margin-top: 10px;
+}
+
+/* #search-bar {
+    width: 100%;
+    display: flex;
+} */
 
 .menu {
     width: auto;
