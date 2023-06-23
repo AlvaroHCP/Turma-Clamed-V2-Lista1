@@ -85,10 +85,18 @@ header a:active {
     color: black;
 }
 
-/* #search-bar {
-    width: 100%;
-    display: flex;
-} */
+header #icones-menu a:active {
+    color: black;
+}
+
+header #icones-menu a:hover {
+    color: pink;
+    background-color: rgb(98, 154, 250);
+}
+
+header #icones-menu a:visited {
+    color: red;
+}
 
 /* .menu {
     width: auto;
